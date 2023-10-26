@@ -1,0 +1,270 @@
+  
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+  *{
+      margin: 0 auto;
+      padding: 0 auto;
+      box-sizing: border-box;
+      font-family: 'Lato', sans-serif;
+      
+      
+  }
+  main{
+      width: 100%;
+     position: relative;
+      background-color: #808080;
+     
+      
+  }
+  header{
+       width: 100%;
+      background-color: #000000;
+  }
+  .nav-bar{
+      width: 95%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      
+   
+   
+  } 
+   
+  .nav-bar span{
+     
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+  
+      
+  }  
+  span select{
+  border: none;
+      color:#ffffff;
+      background-color: #000000;
+      outline: none;
+      cursor: pointer;
+       width: 100px;
+      font-size: 0.90rem;
+     
+     
+      
+  }
+  @media only screen and (max-width: 600px){
+  .hide select{
+      display: none;
+         
+      }
+  }   
+  
+  select option {
+      color: #ffffff;
+      background-color: #000000;
+    
+  
+      
+   
+  
+  }
+  
+  .search{
+      color: #ffffff;
+      width: 50px;
+      cursor: pointer;
+  }
+  option svg{
+      color: #000000;
+  
+      cursor: pointer;
+  }
+  span svg{
+      color: #ffffff;
+  
+      cursor: pointer;
+      
+  }
+  
+  .heading{
+     width: 30%;
+     text-align: center;
+     color: #f0f0f0;
+     font-size: 2rem;
+     border-bottom: 5px dashed #ffffff;
+  
+  }
+  @media only screen and (max-width: 600px){
+  .heading{
+      width: 50%
+  }
+  
+      
+  }
+  .calander-2023{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-top: 100px;
+      flex-wrap: wrap;
+   
+  
+  }
+  
+  .month{
+      width: 300px;    
+      height: 300px;
+      background-color: #f0f0f0;
+      border: 1px solid #0035d2;
+      display: flex;
+      flex-direction: column;
+      
+     
+      
+      margin: 10px;
+  }
+  @media only screen and (max-width: 600px){
+      .month{
+          width: 100%;
+      }
+  }
+      
+  
+  .month a{
+      background-color: #e0e0e0;
+      width: 100%;
+       text-decoration: none;   
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      height: 40px;
+      font-size: 1.2rem;
+      color: #556bb5;
+  
+  }
+  .month a:hover{
+     text-decoration: underline;
+  }
+  .week{
+      width: 100%;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       background-color: #c0c0c0;
+  }
+  .week-days{
+      width: 100%;
+      height: 230px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+     
+  
+  }
+  .fst-week{
+      width: 100%;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .secnd-week{
+      width: 100%;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .thrd-week{
+      width: 100%;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .frth-week{
+      width: 100%;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .ffth-week{
+      width: 100%;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .sxth-week{
+      width: 100%;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .bottom{
+      width: 100%;
+      height: 30px;
+      background-color: #c0c0c0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .up{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  position: relative;
+  
+  width: 100%;
+  }
+  .up button{
+      width: 60px;
+      height:60px;
+      border-radius: 60px;
+      outline: none;
+      border-style: none;
+      background-color: #07080c;
+      
+   
+  }
+  .up button svg{
+      width: 40px;
+      height: 40px;
+     
+  }
+  .down{
+     
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  
+      
+  }
+  .down button{
+      width: 60px;
+      height:60px;
+      border-radius: 60px;
+      outline: none;
+      border-style: none;
+      background-color: #07080c;
+        
+   
+  }
+  .down button svg{
+      width: 40px;
+      height: 40px;
+     
+  }
